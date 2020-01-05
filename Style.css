@@ -1,74 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #F5F5F5;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  background: #F2F2F2;
+  color: #323232;
 }
 
-.myPhoto {
+.page {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+a {
+  color: #323232;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  width: 130px;
   border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-h1 {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 32px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  color: #000000;
+.my_name {
+  font-size: 48px;
+  line-height: 1;
+}
+
+.my_job {
+  font-size: 24px;
+  color: FORESTGREEN;
   font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: none;
-  text-align: center;
 }
 
-h2 {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 26px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: none;
-  text-align: center;
+.links {
+  display: flex;
+  margin: 10px 0 20px 0;
 }
 
-.skills {
-  margin-top: 100px
+.link-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
 
-.about {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 16px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  text-transform: none;
-  text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+.icon {
+  fill: currentColor;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
 }
 
-div.gallery {
-  margin: 10px;
-  float: left;
-  width: 180px;
-}
-
-
-div.gallery img {
-
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
+.link-item svg {
+  margin-right: 6px;
 }
