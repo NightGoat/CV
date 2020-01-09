@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
   background: #F2F2F2;
   color: #323232;
@@ -25,9 +25,20 @@ section {
   border-bottom: 1px solid lightgrey;
 }
 
+section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 a {
   color: #323232;
   text-decoration: none;
+  target-name: new;
+  target-new: tab;
 }
 
 a:hover {
@@ -105,4 +116,35 @@ a:hover {
 .job-company {
   font-weight: bold;
   line-height: 1.2;
+}
+
+.text-above-skills {
+  font-size: 20px;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery-container{
+  width: 160px;
+  height: 200px;
+  margin: 1px;
+  display: inline-block;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5)
+}
+
+.gallery-container img {
+  width: 100%;
+  height: auto;
+  transition: 1s;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.2)
+}
+
+.gallery-text {
+  font-size: 12px;
+  text-align: center;
 }
