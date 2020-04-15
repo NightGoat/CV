@@ -35,7 +35,6 @@ section:last-child {
 }
 
 a {
-  color: #323232;
   text-decoration: none;
   target-name: new;
   target-new: tab;
