@@ -2,7 +2,7 @@
 <html lang="ru" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Асадуллин Наиль - android разработчик</title>
+  <title>Асадуллин Наиль - Android разработчик</title>
   <link rel="stylesheet"
   href="Style.css">
   <link rel="icon"
@@ -51,23 +51,26 @@
           <div class="section-title">Проекты:</div>
           <div>
             <ul>
-              <li>Андроид приложение для сервиса волонтерского движения<br/>
-                <a href="https://github.com/volunteergbteam/Android-app">github</a>
+              <li>
+                <a href="https://github.com/NightGoat/NeedDrummer">Андроид приложение для поиска музыкантов.
+                  Kotlin, Firebase, Coroutines, MVI, Hilt</a>
               </li>
-              <li>Погодное android приложение api OpenWeatherMap.org.
-                Kotlin, RetroFit2, MVVM, Dagger2, RxJava2<br/>
-                <a href="https://github.com/NightGoat/WeatherAndroidApp">github</a>,
-                <a href="https://play.google.com/store/apps/details?id=ru.nightgoat.weather">GooglePlayStore</a>
+              <li>
+                <a href="https://github.com/NightGoat/Kotlin-Extentions">Библиотека котлин extentions</a>
               </li>
-              <li>Приложение-менеджер времени. Java/kotlin, MVVM, Room, RxJava2, Dagger2, Joda time <br/>
-                <a href="https://github.com/NightGoat/Timesheet">github</a>,
-                <a href="https://play.google.com/store/apps/details?id=nightgoat.timesheet">GooglePlayStore</a>
+              <li>
+                <a href="https://github.com/NightGoat/WeatherAndroidApp">Погодное android приложение api OpenWeatherMap.org.
+                  Kotlin, RetroFit2, MVVM, Dagger2, RxJava2</a>
+                </br>
+                <a href="https://play.google.com/store/apps/details?id=ru.nightgoat.weather">(ссылка на GooglePlayStore)</a>
               </li>
-              <li>Приложение друзья ВКонтакте. Kotlin, MVP, VK API, Picasso<br/>
-                <a href="https://github.com/NightGoat/VkFriendsKotlin">github</a></li>
+              <li>
+                <a href="https://github.com/NightGoat/Timesheet">Приложение-менеджер времени. Java/kotlin, MVVM, Room, RxJava2, Dagger2, Joda time </a>
+                 <br/>
+                <a href="https://play.google.com/store/apps/details?id=nightgoat.timesheet">(ссылка на GooglePlayStore)</a>
               </li>
-              <li>Это резюме, написанное на html/CSS <br/>
-                <a href="https://github.com/NightGoat/NightGoat.github.io">github</a>
+              <li>
+                <a href="https://github.com/NightGoat/NightGoat.github.io">Это резюме, написанное на html/CSS </a>
               </li>
             </ul>
           </section>
@@ -113,6 +116,7 @@
                       <li>Умение и желание приобретать новые навыки и осваивать новые
                         технологии</li>
                         <li>Умение быстро разбираться в чужом коде</li>
+                        <li>Проводить качественный code review</li>
                       </ul>
                     </div>
                   </section>
@@ -126,13 +130,24 @@
                               <a href="https://krit.pro/">Компания «КРИТ»
                               </a>
                             </div>
-                            <div class="job-title">Android разработчик</div>
+                            <div class="job-title">Android разработчик / Руководитель группы проекта</div>
                           </div>
-                          <div>
-                            Июнь 2020 - по настоящее время
+                          <div id="timer">
+                            <script>
+                            var countDownDate = new Date("June 10, 2020 00:00:00").getTime();
+                            var x = setInterval(function() {
+                              var now = new Date().getTime();
+                              var distance = now - countDownDate;
+                              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                              document.getElementById("timer").innerHTML = "Июнь 2020 - по настоящее время (" + days + " дней)"
+                            }, 1000);
+                            </script>
                           </div>
                         </div> <!-- end job-title container -->
-                        <p>MVVM, LiveData, Coroutines, REST API</p>
+                        <p>MVVM, MVI, LiveData, Coroutines, REST API, Room, FMP, DataBinding</p>
+                        <p>Разработка приложений для крупной торговой сети.
+                          Разработка приложения для очков дополненной реальности.
+                          Руководство группой разработчиков и проведение code review.</p>
                         </div> <!-- end job -->
                       <div class="job">
                         <div class="job-title-container">
@@ -247,15 +262,7 @@
 
                           <section>
                             <div class="section-title">Обо мне</div>
-                            <p>Прошел курсы Android разработчика Geekbrains.
-                              Создал два приложения, которые используют
-                              самые современные технологии Android
-                              разработки (Dagger2, RxJava2, RetroFit и тд),
-                              и выложил их в Google Play Store.
-                              В последние годы работал по специальности
-                              инженер-конструктор. В данной специальности
-                              не трудоустраивался.
-                              <br/>
+                            <p>
                               Я выбрал Android разработку, потому что всегда
                               был заинтересован мобильными приложениями.
                               Мне нравится как в таком компактном формате люди
@@ -264,7 +271,8 @@
                               Android dev подкаст, подписан на телеграм каналы.
                               Работая в фирме со свободным графиком, мне
                               показалось что было бы очень удобно иметь
-                              приложение которое учитывало бы моё рабочее время,
+                              <a href="https://play.google.com/store/apps/details?id=nightgoat.timesheet">приложение</a>
+                              которое учитывало бы моё рабочее время,
                               и решил сделать его сам. Поэтому я записался на курсы
                               разработчика. Первые уроки на курсе были
                               посвящены Java, и когда впервые я создал объекты,
@@ -273,6 +281,20 @@
                               Поэтому я посвятил все свое свободное время учебе,
                               потому что хотел изучить все подробно, стараясь
                               ничего не упустить.
+                              <br/>
+                              Прошел курсы Android разработчика Geekbrains.
+                              Создал два приложения, которые используют
+                              самые современные технологии Android
+                              разработки (Dagger2, RxJava2, RetroFit и тд),
+                              и выложил их в Google Play Store.
+                              C 2012 по 2019 работал по специальности
+                              инженер-конструктор.
+                              <br/>
+                              Устроился в компанию <a href="https://krit.pro">Крит</a>, где занимаюсь разработкой
+                              различных приложений для специализированных ТСД
+                              устройств, телефонов и очков дополненной реальности.
+                              Руковожу небольшой группой разработчиков,
+                              веду ежедневный code review.
                             </p>
                           </section>
                           <section>
