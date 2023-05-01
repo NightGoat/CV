@@ -25,15 +25,9 @@
           </form>
         </div>
 
-        <div class="my_name" lang="ru">Асадуллин Наиль</div>
-        <div class="my_name" lang="en">Asadullin Nail</div>
-
-        <div class="my_job" lang="ru">Разработчик мобильных приложений</div>
-        <div class="my_job" lang="en">Mobile developer</div>
-
-        <div lang="ru">1991гр, Стокгольм, Швеция</div>
-        <div lang="en">1991, Stockholm, Sweden</div>
-
+        <div id="name" class="my_name"></div>
+        <div id="job" class="my_job"></div>
+        <div id="place"></div>
         <div class="links">
           <div class="link-item">
             <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -83,98 +77,62 @@
             </svg>
             <a href="https://medium.com/@Night_Goat">Medium</a>
           </div>
-
         </div><!-- end links -->
       </div>
     </section> <!-- end of first section  -->
-    <section lang="en">
-      <div class="section-title" lang="en">Summary</div>
+    <section>
+      <div id="summary" class="section-title"></div>
       <div>
         <i>
-          <ul>
-            <li>Certified Android developer with over 2 years of experience.</li>
-            <li>Built over 10+ applications from scratch, skillfully supported them before and after release to the
-              users.</li>
-            <li>Know how to use and build every possible mobile architectures,
-              design patterns, last framework technologies.</li>
-            <li>Team lead after one year of work, known for good team forming
-              and professional code reviewing.</li>
-          </ul>
+          <ul id="summaryList"></ul>
         </i>
       </div>
     </section>
-
     <section>
-      <div class="section-title" lang="ru">Проекты:</div>
-      <div class="section-title" lang="en">Pet projects:</div>
-
+      <div id="projects" class="section-title"></div>
       <div>
         <ul>
           <li>
-            <a href="https://github.com/NightGoat/SecretBlog">Kotlin Multiplatform Mobile diary app. Visually it looks
-              like messenger for faster use, and has main feature of hiding secret messages. KMM, Redux, Coroutines,
-              Realm Kotlin, SwiftUi</a>
+            <a id="secretBlog"></a>
           </li>
           <li>
-            <a href="https://github.com/NightGoat/KmmFlickr">Kotlin multiplatform mobile app for Flickr.
-              Kotlin, KMM, Coroutines, MVI, Ktor, Korim, Korio, Koin, Coil, Jetpack Compose, Flickr api</a>
+            <a id="flickr"></a>
           </li>
           <li>
-            <a href="https://github.com/NightGoat/NeedDrummer" lang="ru">Андроид приложение для поиска музыкантов.
-              Kotlin, Firebase, Coroutines, MVI, Hilt</a>
-            <a href="https://github.com/NightGoat/NeedDrummer" lang="en">Android app for musicians to find each other.
-              Kotlin, Firebase, Coroutines, MVI, Hilt</a>
+            <a id="needDrummer"></a>
           </li>
           <li>
-            <a href="https://github.com/NightGoat/KEXtensions-core" lang="ru">Библиотека котлин extensions</a>
-            <a href="https://github.com/NightGoat/KEXtensions-core" lang="en">Native Kotlin extensions library</a>
+            <a id="kextensions"></a>
           </li>
           <li>
-            <a href="https://github.com/NightGoat/KEXtentions" lang="ru">Библиотека котлин extensions для Android</a>
-            <a href="https://github.com/NightGoat/KEXtentions" lang="en">Android Kotlin extensions library</a>
+            <a id="androidKex"></a>
           </li>
           <li>
-            <a href="https://github.com/NightGoat/WeatherAndroidApp" lang="ru">Погодное android приложение api
-              OpenWeatherMap.org.
-              Kotlin, RetroFit2, MVVM, Dagger2, RxJava2</a>
-            <a href="https://github.com/NightGoat/WeatherAndroidApp" lang="en">Android weather application that uses api
-              from OpenWeatherMap.org.
-              Kotlin, RetroFit2, MVVM, Dagger2, RxJava2</a>
+            <a id="weather"></a>
             </br>
-            <a href="https://play.google.com/store/apps/details?id=ru.nightgoat.weather" lang="ru">(ссылка на
-              GooglePlayStore)</a>
-            <a href="https://play.google.com/store/apps/details?id=ru.nightgoat.weather" lang="en">(GooglePlayStore
-              link)</a>
+            <a id="weatherPlayLink"></a>
           </li>
           <li>
-            <a href="https://github.com/NightGoat/Timesheet" lang="ru">Приложение-менеджер времени. Java/kotlin, MVVM,
-              Room, RxJava2, Dagger2, Joda time </a>
-            <a href="https://github.com/NightGoat/Timesheet" lang="en">Work time tracker app. Java/kotlin, MVVM, Room,
-              RxJava2, Dagger2, Joda time </a>
+            <a id="timeSheet"></a>
             <br />
-            <a href="https://play.google.com/store/apps/details?id=nightgoat.timesheet" lang="ru">(ссылка на
-              GooglePlayStore)</a>
-            <a href="https://play.google.com/store/apps/details?id=nightgoat.timesheet" lang="en">(GooglePlayStore
-              link)</a>
+            <a id="timeSheetPlayLink"></a>
           </li>
           <li>
-            <a href="https://github.com/NightGoat/NightGoat.github.io" lang="ru">Это резюме, написанное на html/CSS </a>
-            <a href="https://github.com/NightGoat/NightGoat.github.io" lang="en">This CV in html/CSS </a>
+            <a id="cv"></a>
           </li>
         </ul>
     </section>
     <section>
-      <div class="section-title" lang="ru">Навыки</div>
-      <div class="section-title" lang="en">Skills</div>
+      <div id="skills" class="section-title">Навыки</div>
       <div>
-        <p class="text-above-skills" lang="ru">Владение технологиями:</p>
-        <p class="text-above-skills" lang="en">Technologies:</p>
+        <p id="technologies" class="text-above-skills">Владение технологиями:</p>
         <div class="skills-container">
           <ul>
             <li>Java</li>
             <li>Kotlin</li>
             <li>Groovy</li>
             <li>Android SDK</li>
+            <li>SwiftUI</li>
             <li>SQLite, Room, Realm</li>
           </ul>
           <ul>
@@ -191,44 +149,18 @@
             <li>Firebase SDK</li>
           </ul>
         </div>
-        <div lang="ru">
-          <p class="text-above-skills">Ключевые навыки:</p>
-          <ul>
-            <li>Опыт разработки Android-приложений на Java и Kotlin</li>
-            <li>Понимание проектирования в многопоточной среде: корутины, RxJava2, thread pools</li>
-            <li>Опыт работы с XML, JSON, HTTP, sockets</li>
-            <li>Знание Android API, понимание архитектуры Android,
-              пользовательский интерфейс, меню, диалоги, ресурсы, logcat. </li>
-            <li>Разбираюсь в чистой архитектуре и в основных паттернах: MVI, MVP, MVVM</li>
-            <li>Intents, Fragments, контент-провайдеры, бродкаст-ресиверы,
-              Google Maps, виджеты, телефония, сенсоры, bluetooth, графика и
-              анимация</li>
-            <li>SQLite, Web, Concurrency</li>
-            <li>Знакомство с гайд лайнами Android последней версии (Jetpack)</li>
-            <li>Творческий подход к поставленным задачам</li>
-            <li>Умение писать чистый код и правильно создавать и использовать
-              модульные тесты</li>
-            <li>Умение и желание приобретать новые навыки и осваивать новые
-              технологии</li>
-            <li>Умение быстро разбираться в чужом коде</li>
-            <li>Проводить качественный code review</li>
-            <li>Управление командой, поддержка мотивации сотрудников, разрешение конфликтов</li>
-          </ul>
-        </div>
       </div>
     </section>
     <section>
-      <div class="section-title" lang="ru">Места работы</div>
-      <div class="section-title" lang="en">Work experience</div>
+      <div id="workExp" class="section-title">Места работы</div>
       <div>
         <div class="job">
           <div class="job-title-container">
             <div>
               <div class="job-company">
-                <a href="https://www.electroluxgroup.com/">Electrolux
-                </a>
+                <a id="electrolux"></a>
               </div>
-              <div class="job-title">Mobile developer</div>
+              <div id="electroluxJob" class="job-title"></div>
             </div>
             <div id="timer">
               <script>
@@ -244,243 +176,95 @@
             </div>
           </div> <!-- end job-title container -->
           <p>Kotlin multiplatform, Ktor, Redux, Jetpack compose, Swift, Swift UI</p>
-          <p lang="ru">Разработка мультиплатформенного приложения для умных(IoT) устройств</p>
-          <p lang="en">Work on multiplatform (Android/iOS) application for IoT appliances</p>
+          <p id="electroluxDesc"></p>
         </div> <!-- end job -->
         <div class="job">
           <div class="job-title-container">
             <div>
               <div class="job-company">
-                <a href="https://krit.pro/" lang="ru">Компания «КРИТ»</a>
-                <a href="https://krit.pro/en/" lang="en">Krit.pro</a>
+                <a id="kritTitle"></a>
               </div>
-              <div class="job-title" lang="ru">Android разработчик / Руководитель группы проекта</div>
-              <div class="job-title" lang="en">Android developer / Teamlead</div>
+              <div id="kritJob" class="job-title"></div>
             </div>
             <div>
               06.2020 - 02.2022
             </div>
           </div> <!-- end job-title container -->
           <p>MVVM, MVI, LiveData, Coroutines, REST API, Room, FMP, DataBinding, Compose</p>
-          <div lang="ru">
-            <li>
-              Разработка приложений для крупной торговой сети и горнодобывающих холдингов.
-            </li>
-            <li>
-              Разработка приложения для очков дополненной реальности.
-            </li>
-            <li>
-              Руководство группой разработчиков и проведение code review.
-            </li>
-          </div>
-          <div lang="en">
-            <ul>
-              <li>
-                Developed applications for big retail company: logistics,
-                trucking, sorting of goods, barcode scanning.
-              </li>
-              <li>
-                Made full research and developed application for Google Glass
-                AR glasses, for using in retail purposes, that won the state
-                tender.
-              </li>
-              <li>
-                Developed applications for large mining company that worked
-                in very difficult conditions (no internet in mines, bad light) using
-                last advanced android technologies such as Jetpack compose
-                with MVI architecture. Worked with NFC, camera scanning ML
-                services, voice recognition.
-              </li>
-              <li>
-                Formed team of 10 developers and fully supported their work
-                with code reviews and dailies.
-              </li>
-            </ul>
+          <div>
+            <ul id="kritDesc"></ul>
           </div>
         </div> <!-- end job -->
         <div class="job">
           <div class="job-title-container">
             <div>
               <div class="job-company">
-                <a href="https://github.com/orgs/volunteergbteam/" lang="ru">Стартап по созданию системы волонтерского
-                  движения</a>
-                <a href="https://github.com/orgs/volunteergbteam/" lang="en">Startup to create a system of volunteer
-                  movement</a>
+                <a id="startupTitle"></a>
               </div>
-              <div class="job-title" lang="ru">Android разработчик</div>
-              <div class="job-title" lang="en">Android developer</div>
+              <div id="startupPosition" class="job-title"></div>
             </div>
             <div>
               04.2020 — 06.2020
             </div>
           </div> <!-- end job-title container -->
-          <p lang="ru">Совместная разработка системы волонтерского движения
-            (Django Rest API сервер + мобильные приложения).
-            Самостоятельно разработал android приложение.
-            Работа велась в общем проекте на GitHub, досках
-            Jira и Trello. Помог проработать дизайн сайта и
-            приложения в Figma.</p>
+          <p id="startupDesc"></p>
         </div> <!-- end job -->
         <div class="job">
           <div class="job-title-container">
             <div>
-              <div class="job-company" lang="ru">ООО "Глобальные Системы"</div>
-              <div class="job-company" lang="en">Global systems</div>
-              <div class="job-title" lang="ru">Инженер-конструктор</div>
-              <div class="job-title" lang="en">Engineer</div>
+              <div id="enginer" class="job-company"></div>
+              <div id="enginerTitle" class="job-title">Engineer</div>
             </div>
             <div>
-              05.2019 — 08.2019
+              10.2012 — 08.2019
             </div>
           </div> <!-- end job-title container -->
-          <p lang="ru">Конструирование радиоэлектронной аппаратуры космического
-            назначения</p>
-          <p lang="en">Design of radio-electronic equipment of outer space </p>
+          <p id="engineerDesc"></p>
         </div> <!-- end job -->
 
-        <div class="job">
-          <div class="job-title-container">
-            <div>
-              <div class="job-company" lang="ru">ООО «СВЧ-Радиосистемы»</div>
-              <div class="job-company" lang="en">SVCH Radiosystems</div>
-              <div class="job-title" lang="ru">Инженер-конструктор 2 категории</div>
-              <div class="job-title" lang="en">Engineer</div>
-            </div>
-            <div>
-              10.2014 — 04.2019
-            </div>
-          </div> <!-- end job-title container -->
-          <p lang="ru">Конструирование радио приборов.</p>
-          <p lang="en">Design of radio devices.</p>
-        </div>
-
-        <div class="job">
-          <div class="job-title-container">
-            <div>
-              <div class="job-company" lang="ru">ЛОМО</div>
-              <div class="job-company" lang="en">LOMO</div>
-              <div class="job-title" lang="ru">Инженер-конструктор</div>
-              <div class="job-title" lang="en">Engineer</div>
-            </div>
-            <div>
-              10.2012 — 06.2014
-            </div>
-          </div> <!-- end job-title container -->
-          <p lang="ru">Работа в отделе космического приборостроения.</p>
-          <p lang="en">Work in the department of space instrumentation.</p>
-        </div> <!-- end job -->
-      </div>
     </section>
 
     <section>
-      <div class="section-title" lang="ru">Образование</div>
-      <div class="section-title" lang="en">Education</div>
+      <div id="education" class="section-title">Образование</div>
       <div>
         <div class="job">
           <div class="job-title-container">
             <div>
               <div class="job-company">
-                <a href="https://geekbrains.ru/">GeekBrains</a>
+                <a id="geekbrainsName"></a>
               </div>
-              <div class="job-title" lang="ru">Android разработчик</div>
-              <div class="job-title" lang="en">Android developer</div>
+              <div id="geekbrainsCourse" class="job-title"></div>
             </div>
-            <div>
-              2020
-            </div>
+            <div> 2020</div>
           </div> <!-- end job-title container -->
-          <p lang="ru">Дополнительное образование</p>
-          <p lang="en">Certification</p>
+          <p id="geekbrainsType"></p>
         </div> <!-- end job -->
 
         <div class="job">
           <div class="job-title-container">
             <div>
-              <div class="job-company" lang="ru">Университет ИТМО</div>
-              <div class="job-company" lang="en">ITMO University</div>
-              <div class="job-title" lang="ru">Компьютерных Технологий и Управления</div>
-              <div class="job-title" lang="en">School of Computer Technologies and Control</div>
+              <div class="job-company">
+                <a id="itmoName"></a>
+              </div>
+              <div id="itmoCourse" class="job-title"></div>
             </div>
             <div>
               2014
             </div>
           </div> <!-- end job-title container -->
-          <p lang="ru">Магистр</p>
-          <p lang="en">Master of Engineering and Technology</p>
+          <p id="itmoType"></p>
         </div> <!-- end job -->
       </div>
     </section>
     <!-- end section -->
 
     <section>
-      <div class="section-title" lang="ru">Обо мне</div>
-      <div class="section-title" lang="en">About me</div>
-      <p lang="ru">
-        Я выбрал Android разработку, потому что всегда
-        был заинтересован мобильными приложениями.
-        Мне нравится как в таком компактном формате люди
-        реализовывают интересные идеи и дизайн, стараюсь
-        изучать последние изменения в разработке, слушаю
-        Android dev подкаст, подписан на телеграм каналы.
-        Работая в фирме со свободным графиком, мне
-        показалось что было бы очень удобно иметь
-        <a href="https://play.google.com/store/apps/details?id=nightgoat.timesheet">приложение</a>
-        которое учитывало бы моё рабочее время,
-        и решил сделать его сам. Поэтому я записался на курсы
-        разработчика. Первые уроки на курсе были
-        посвящены Java, и когда впервые я создал объекты,
-        которые существовали и взаимодействовали сами по
-        себе, понял насколько это интересно и захватывающе.
-        Поэтому я посвятил все свое свободное время учебе,
-        потому что хотел изучить все подробно, стараясь
-        ничего не упустить.
-        <br />
-        Прошел курсы Android разработчика Geekbrains.
-        Создал два приложения, которые используют
-        самые современные технологии Android
-        разработки (Dagger2, RxJava2, RetroFit и тд),
-        и выложил их в Google Play Store.
-        C 2012 по 2019 работал по специальности
-        инженер-конструктор.
-        <br />
-        Занимался разработкой
-        различных приложений для специализированных ТСД
-        устройств, телефонов и очков дополненной реальности, IoT устройств.
-        Руководил небольшой группой разработчиков,
-        веду ежедневный code review. Проходил <a href="https://practicum.yandex.ru/profile/it-mentor/">курсы
-          наставников</a>.
-        Постоянно саморазвиваюсь, изучаю новые технологии.
-      </p>
-      <div lang="en">
-        <p>
-          I chose Android development because I have always been interested in
-          mobile applications. I like how people implement interesting ideas and
-          designs in such a compact format, I constantly install them on my
-          smartphone to study the latest changes in development. Working in a
-          company with a free schedule, it seemed to me that it would be very
-          convenient to have an application that would take into account my
-          working hours, and I decided to make it myself. While studying on the
-          Java course I created objects for the first time that existed and
-          interacted on their own, I realized how fascinating and exciting it was.
-        </p>
-        <p>
-          Despite being a programmer, I love traveling, seeing the nature. Hiking
-          to the woods or mountains with big travelling backpack is the best
-          vacation for me.
-        </p>
-        <p>
-          My other hobby is music. In the past, I performed in a rock band playing
-          the guitar. The best thing about it was getting to know a lot of
-          interesting people around the world, people wrote that my music
-          supports them in difficult moments.
-        </p>
-      </div>
+      <div id="aboutMe" class="section-title">Обо мне</div>
+      <p id="aboutText"></p>
     </section>
     <section>
-      <div class="section-title" lang="ru">Сертификаты</div>
-      <div class="section-title" lang="en">Certificates</div>
+      <div id="certificates" class="section-title">Сертификаты</div>
       <div class="gallery">
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer"
             href="https://raw.githubusercontent.com/NightGoat/NightGoat.github.io/master/img/Geekbrains.jpg">
@@ -488,158 +272,120 @@
             <p class="gallery-text"><b>Android developer</b> GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/870908">
             <img src="img/internship_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Стажировка</b> GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Internship</b> GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/694631">
             <img src="img/Android_1_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Android</b>. Базовый уровень. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Android</b>. Base level. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/716137">
             <img src="img/Android_2_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Android</b>. Продвинутый уровень. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Android</b>. Pro level. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/746691">
             <img src="img/Android_3_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Android</b>. Популярные библиотеки. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Android</b>. Popular frameworks. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/635984">
             <img src="img/JavaCore_fast_geekbrains.png">
-            <p class="gallery-text" lang="ru">Интенсив <b>Java</b> для начинающик. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Java</b> for beginners. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/637804">
             <img src="img/JavaCore_geekbrains.png">
-            <p class="gallery-text" lang="ru">Основы <b>Java</b>.GeekBrains</p>
             <p class="gallery-text" lang="en">Base <b>Java</b>.GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/671254">
             <img src="img/JavaCore_2_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Java</b> Core. Проффессиональный уровень. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Java</b> Core. Pro level. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/658348">
             <img src="img/JavaCore_3_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Java</b> Core. Продвинутый уровень. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Java</b> Core. Middle level. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/636771">
             <img src="img/Java_easy_test geekbrains.png">
-            <p class="gallery-text" lang="ru">Тестирование <b>Java</b>. Начальный уровень. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Java</b> test. Base level. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/658347">
             <img src="img/Java_middle_test_geekbrains.png">
-            <p class="gallery-text" lang="ru">Тестирование <b>Java</b>. Средний уровень. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Java</b> test. Middle level. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/671252">
             <img src="img/Java_hard_test_geekbrains.png">
-            <p class="gallery-text" lang="ru">Тестирование <b>Java</b>. Сложный уровень. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Java</b> test. Pro level. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://stepik.org/cert/240312">
             <img src="img/StepikJava.png">
-            <p class="gallery-text" lang="ru"><b>Java</b>. Базовый курс. Stepik.org. Computer Science Center</p>
             <p class="gallery-text" lang="en">Base <b>Java</b>. Stepik.org. Computer Science Center</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://stepik.org/cert/981612">
             <img src="img/StepikAndroid.png">
-            <p class="gallery-text" lang="ru">Разработка мобильных приложений для <b>Android</b>. Stepik.org. ОмГТУ</p>
             <p class="gallery-text" lang="en"><b>Android</b> development. Stepik.org.</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://www.sololearn.com/Certificate/1068-10088267/pdf/">
             <img src="img/Sololearn.jfif">
             <p class="gallery-text"><b>Java</b> Tutorial course. SoloLearn</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/625293">
             <img src="img/Basics_geekbrains.png">
-            <p class="gallery-text" lang="ru">Основы программирования. Начальный уровень. GeekBrains</p>
             <p class="gallery-text" lang="en">Computer science for begginers. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/637862">
             <img src="img/Git_geekbrains.png">
-            <p class="gallery-text" lang="ru">Основы работы с <b>Git</b>. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Git</b>. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/663479">
             <img src="img/DB_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Базы данных</b>. GeekBrains</p>
             <p class="gallery-text" lang="en"><b>Databases</b>. GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/651481">
             <img src="img/English_Preintermediate_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Английский язык</b>. Pre-intermediate GeekBrains</p>
             <p class="gallery-text" lang="en"><b>English</b>. Pre-intermediate GeekBrains</p>
           </a>
         </div>
-
         <div class="gallery-container">
           <a target="_blank" rel="noopener noreferrer" href="https://geekbrains.ru/certificates/625293">
             <img src="img/English_Intermediate_geekbrains.png">
-            <p class="gallery-text" lang="ru"><b>Английский язык</b>. Intermediate GeekBrains</p>
             <p class="gallery-text" lang="en"><b>English</b>. Intermediate GeekBrains</p>
           </a>
         </div>
-
       </div>
     </section>
     <footer>
@@ -650,28 +396,7 @@
         from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
   </div>
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-  <script>
-    $('[lang]').hide(); // hide all lang attributes on start.
-    $('[lang="en"]').show(); // show just Korean text (you can change it)
-    $('#lang-switch').change(function () { // put onchange event when user select option from select
-      var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
-      switch (lang) {
-        case 'en':
-          $('[lang]').hide();
-          $('[lang="en"]').show();
-          break;
-        case 'ru':
-          $('[lang]').hide();
-          $('[lang="ru"]').show();
-          break;
-        default:
-          $('[lang]').hide();
-          $('[lang="en"]').show();
-      }
-    });
-  </script>
+  <script src="cv.js"></script>
 </body>
-
+</body>
 </html>
